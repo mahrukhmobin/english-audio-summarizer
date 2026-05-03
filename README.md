@@ -1,21 +1,21 @@
-# 🎙️ English Audio Summarizer
+# English Audio Summarizer
 
-An AI-powered tool that converts audio into text, generates a concise summary, and reads it back to you — all in one click!
+An AI-powered tool that converts audio into text, generates a concise summary, and reads it back — all in one click.
 
-🔗 **Live Demo:** [Try it on Hugging Face]([https://lnkd.in/gYTFmB-J](https://huggingface.co/spaces/Mahrukhh/English_audio_summarizer))
-
----
-
-## ✨ What It Does
-
-1. 🎙️ **Speech to Text** — Upload any audio file (MP3/WAV/OPUS) → transcribed using OpenAI Whisper
-2. 📝 **Summarization** — Transcript summarized in 2-3 lines using Groq LLaMA3
-3. 🔊 **Text to Speech** — Summary converted back to audio using gTTS
-4. ⬇️ **Download** — Save the summary audio file
+**Live Demo:** [Try it on Hugging Face](https://huggingface.co/spaces/Mahrukhh/English_audio_summarizer)
 
 ---
 
-## 🛠️ Tech Stack
+## What It Does
+
+1. **Speech to Text** — Upload any audio file (MP3/WAV/OPUS), transcribed using OpenAI Whisper
+2. **Summarization** — Transcript summarized in 2-3 lines using Groq LLaMA3
+3. **Text to Speech** — Summary converted back to audio using gTTS
+4. **Download** — Save the summary audio file locally
+
+---
+
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -28,19 +28,19 @@ An AI-powered tool that converts audio into text, generates a concise summary, a
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 english-audio-summarizer/
 │
 ├── app.py              # Main Streamlit app
-├── requirements.txt    # Dependencies
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ```bash
 # 1. Clone the repo
@@ -58,25 +58,11 @@ streamlit run app.py
 
 ---
 
-## 📦 Requirements
+## Use Cases
 
-```
-openai-whisper
-groq
-gtts
-torch
-torchaudio
-ffmpeg-python
-streamlit
-```
-
----
-
-## 💡 Use Cases
-
-- Summarize long voice notes or lectures
+- Summarize long voice notes or recorded lectures
 - Quickly digest meeting recordings
-- Convert audio content into readable + listenable summaries
+- Convert audio content into readable and listenable summaries
 
 ---
 
